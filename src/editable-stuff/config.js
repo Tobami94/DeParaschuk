@@ -50,47 +50,17 @@ const about = {
 const experience = {
   show: true,
   heading: "Experiencia",
+  resume: "https://drive.google.com/file/d/1_tPTuiBE1s8apZfDXWPBtDQ_2vcgqanx/view",
   data: [
-   
-    {
-      role: 'Desarrollo web · Freelancer',
-      date: '2021 — PRESENTE',
-      tools: [ 
-         { tool: "Javascript"},
-         { tool: "React"},
-         { tool: "PHP"},
-         { tool: "HTML & SCSS"},
-         { tool: "Contentful"},
-         { tool: "Wordpress"},
-    ],
-      resumen: (
-        <p>Desarrollar y mantener los componentes fundamentales que dan forma a las interfaces de usuario.
-           Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores, diseñadores y gerentes de producto,
-            para implementar y promover las mejores prácticas de accesibilidad web. Garantizar la coherencia y la calidad en la experiencia 
-            del usuario mediante la creación y optimización de interfaces intuitivas 
-            y eficientes.</p>
-        ), 
-
-       enlaces: [
-        { url: "https://sociedadhipicalebrera.es",
-        texto: "Soc. Hípica Lebrera"},
-        { url: "https://veteransbasquetfcb.com/",
-        texto: "VeteransBasquetFCB"},
-        { url: "https://hammamfarasha.com/",
-        texto: "Hammam Farasha"},
-      
-       ]
-        
-    },
     {
       role: 'Frontend Developer · NEOSHIHARA',
       date: '2018 — 2021',
       tools: [ 
         { tool: "JavaScript"},
         { tool: "React"},
-        { tool: "HTML, SCSS, Tailwind"},
-        { tool: "Contentful"},
-        { tool: "Node.js"},
+        { tool: "Redux"},
+        { tool: "HTML, SCSS"},
+        { tool: "Tailwind"},
    ],
       resumen:( <p> Creación de aplicaciones escalables que impulsaran las ventas y los servicios de nuestros clientes. En este rol, lideré proyectos que abarcaron desde el diseño y desarrollo web, hasta la implementación de soluciones de comercio electrónico utilizando plataformas como MercadoPago y PayPal. Además, colaboré en la creación de plataformas B2B/B2C, integraciones con tiendas en la Nube y la construcción de Landing Pages.</p>),
    
@@ -103,12 +73,87 @@ const experience = {
        ]
         
     },
+    {
+      role: 'Veterans Basquet FCB · Mantenimiento',
+      date: '2020',
+      tools: [ 
+         { tool: "Javascript"},
+         { tool: "PHP"},
+         { tool: "HTML & SCSS"},
+         { tool: "Wordpress"},
+    ],
+      resumen: (
+        <p>Desarrollar y mantener los componentes fundamentales que dan forma a las interfaces de usuario.
+           Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores, diseñadores y gerentes de producto,
+            para implementar y promover las mejores prácticas de accesibilidad web. Garantizar la coherencia y la calidad en la experiencia 
+            del usuario mediante la creación y optimización de interfaces intuitivas 
+            y eficientes.</p>
+        ), 
+
+       enlaces: [
+        { url: "https://veteransbasquetfcb.com/",
+        texto: "VeteransBasquetFCB"},
+     
+      
+       ]
+        
+    },
+    {
+      role: 'Hammam farasha · Mantenimiento',
+      date: '2021',
+      tools: [ 
+         { tool: "Javascript"},
+         { tool: "HTML & SCSS"},
+         { tool: "Ecommerce"},
+         { tool: "Wordpress"},
+    ],
+      resumen: (
+        <p>Desarrollar y mantener los componentes fundamentales que dan forma a las interfaces de usuario.
+           Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores, diseñadores y gerentes de producto,
+            para implementar y promover las mejores prácticas de accesibilidad web. Garantizar la coherencia y la calidad en la experiencia 
+            del usuario mediante la creación y optimización de interfaces intuitivas 
+            y eficientes.</p>
+        ), 
+
+       enlaces: [
+
+        { url: "https://hammamfarasha.com/",
+        texto: "Hammam Farasha"},
+      
+       ]
+        
+    },
+    {
+      role: 'Sociedad Hípica Lebrera · Desarrollo web',
+      date: '2022',
+      tools: [ 
+         { tool: "Javascript"},
+         { tool: "PHP"},
+         { tool: "HTML & SCSS"},
+         { tool: "Contentful"},
+    ],
+      resumen: (
+        <p>Desarrollar y mantener los componentes fundamentales que dan forma a las interfaces de usuario.
+           Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores, diseñadores y gerentes de producto,
+            para implementar y promover las mejores prácticas de accesibilidad web. Garantizar la coherencia y la calidad en la experiencia 
+            del usuario mediante la creación y optimización de interfaces intuitivas 
+            y eficientes.</p>
+        ), 
+
+       enlaces: [
+        { url: "https://sociedadhipicalebrera.es",
+        texto: "Soc. Hípica Lebrera"},
+      
+       ]
+        
+    },
     
 ],
   imageSize: {
     width:"615",
     height:"450"
   }
+  
 };
 
 // SKILLS SECTION
@@ -208,7 +253,6 @@ const proyects = {
         { tool: "React"},
         { tool: "Redux"},
         { tool: "StyleComponent"},
-        { tool: "Sequelize"},
         { tool: "Node"},
    ],
       resumen: (<p>Aplicación web para visualizar Pokemons y datos personalizados. Vea sus personajes favoritos, los más populares, busquelos por especie, clase, poder y/o orden alfabético. 
@@ -258,7 +302,40 @@ const proyects = {
    resumen: (<p>He desarrollado una aplicación que cuenta con la funcionalidad de una Pokédex, con características de diseño responsivo y adaptado visualmente para las necesidades del usuario. La aplicación realiza peticiones a una API externa y ofrece un desarrollo en: front, back y bases de datos relacionales</p>),
    url: "https://github.com/Tobami94/TronoDeSombras_BotDS",
    
-  }
+  },
+  {
+    role: 'La gruta',
+    companylogo: require('../assets/img/pokedex.png'),
+    tools: [ 
+      { tool: "Javascript"},
+      { tool: "React"},
+      { tool: "Redux"},
+      { tool: "StyleComponent"},
+      { tool: "Node"},
+ ],
+    resumen: (<p>Aplicación web para visualizar Pokemons y datos personalizados. Vea sus personajes favoritos, los más populares, busquelos por especie, clase, poder y/o orden alfabético. 
+
+      Cree y guarde nuevos Pokemons, añadadalos a sus favoritos. 
+      </p>),
+    url: "https://github.com/Tobami94/Pokemon_PI_full"
+
+  }, {
+    role: 'La gruta',
+    companylogo: require('../assets/img/pokedex.png'),
+    tools: [ 
+      { tool: "Javascript"},
+      { tool: "React"},
+      { tool: "Redux"},
+      { tool: "StyleComponent"},
+      { tool: "Node"},
+ ],
+    resumen: (<p>Aplicación web para visualizar Pokemons y datos personalizados. Vea sus personajes favoritos, los más populares, busquelos por especie, clase, poder y/o orden alfabético. 
+
+      Cree y guarde nuevos Pokemons, añadadalos a sus favoritos. 
+      </p>),
+    url: "https://github.com/Tobami94/Pokemon_PI_full"
+
+  },
   ]
 }
 

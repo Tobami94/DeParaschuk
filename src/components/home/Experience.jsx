@@ -22,7 +22,7 @@ const Experience = ({ experience, resume }) => {
               className={`enlacess d-inline-flex align-items-center p-1 mx-3 mb-1 ${
                 isHovered ? "hovered" : ""
               }`}
-              href={resume}
+              href={experience.resume}
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}

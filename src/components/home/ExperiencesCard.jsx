@@ -14,9 +14,9 @@ const ExperienceCard = ({ data }) => {
               {data.role || <Skeleton />}
                </Card.Title>
             <small className="text-muted">{data.date}</small>
-            <Card.Text>
+            <Card.Text className="textExperience">
             {!data.resumen ? "" : data.resumen || <Skeleton count={3} />}{" "}
-              <div className="button-tools flex flex-wrap">
+              <div className="flex flex-wrap">
                 {data.enlaces?.map((enlace, index) => (
                   <span className="btn p-1 mr-1.5" key={index}>
                     <a
@@ -40,7 +40,7 @@ const ExperienceCard = ({ data }) => {
                   </span>
                 ))}
               </div>
-              <div className="button-tools mt-1 flex flex-wrap">
+              <div className="button-tools mt-2 flex flex-wrap">
                 {data.tools?.map((t) => {
                   const key = t.tool ? t.tool : t.id;
                   return (
