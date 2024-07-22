@@ -13,7 +13,7 @@ const Experience = ({ proyects }) => {
             {proyects.data.map((data, index) => {
               return <ProyectsCards key={index} data={data} />;
             })}
-          </Row>
+          </Row> 
         </Jumbotron>
       </Container>
     </section>
