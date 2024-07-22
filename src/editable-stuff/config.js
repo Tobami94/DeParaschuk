@@ -285,11 +285,11 @@ const proyects = {
         { tool: "Javascript"},
         { tool: "React"},
         { tool: "Taildwind"},
-        { tool: "HTML"},
+        { tool: "Astro"},
 
    ],
-   resumen: (<p>He desarrollado una aplicación que cuenta con la funcionalidad de una Pokédex, con características de diseño responsivo y adaptado visualmente para las necesidades del usuario. La aplicación realiza peticiones a una API externa y ofrece un desarrollo en: front, back y bases de datos relacionales</p>),
-   url: "",
+   resumen: (<p>Aplicación clon de Spotify con sus funcionalidades, servidor propio y base de datos. La app funciona igual que el spotify que todos conocemos, con algunas diferencias. </p>),
+   url: "https://github.com/Tobami94/Spotify_Clone",
  },
     {
       role: 'Bot Discord.js',
@@ -313,11 +313,9 @@ const proyects = {
       { tool: "StyleComponent"},
       { tool: "Node"},
  ],
-    resumen: (<p>Aplicación web para visualizar Pokemons y datos personalizados. Vea sus personajes favoritos, los más populares, busquelos por especie, clase, poder y/o orden alfabético. 
-
-      Cree y guarde nuevos Pokemons, añadadalos a sus favoritos. 
+    resumen: (<p>Proyecto final de Bootcamp; En grupo desarrollamos una app para una ONG, cuenta con Ecommerce, servidor promio, base de datos, testing y frontend. Mi parte del proyecto fue aportar en noticias y conexion con redes sociales. 
       </p>),
-    url: "https://github.com/Tobami94/Pokemon_PI_full"
+    url: "https://github.com/sofiaparraweb/lagrutaclient"
 
   }, 
   ]
