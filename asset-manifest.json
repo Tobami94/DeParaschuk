@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DeParaschuk/static/css/main.69efbc27.css",
-    "main.js": "/DeParaschuk/static/js/main.0b0bfa52.js",
+    "main.js": "/DeParaschuk/static/js/main.1871d487.js",
     "static/js/453.b455d6ee.chunk.js": "/DeParaschuk/static/js/453.b455d6ee.chunk.js",
     "static/media/profile_maleP.png": "/DeParaschuk/static/media/profile_maleP.680e771b7ca3940e098b.png",
     "static/media/pokedex.png": "/DeParaschuk/static/media/pokedex.037b0cbdde1a0bb22cef.png",
@@ -9,11 +9,11 @@
     "static/media/embled.png": "/DeParaschuk/static/media/embled.1c5104b51458a114d677.png",
     "index.html": "/DeParaschuk/index.html",
     "main.69efbc27.css.map": "/DeParaschuk/static/css/main.69efbc27.css.map",
-    "main.0b0bfa52.js.map": "/DeParaschuk/static/js/main.0b0bfa52.js.map",
+    "main.1871d487.js.map": "/DeParaschuk/static/js/main.1871d487.js.map",
     "453.b455d6ee.chunk.js.map": "/DeParaschuk/static/js/453.b455d6ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69efbc27.css",
-    "static/js/main.0b0bfa52.js"
+    "static/js/main.1871d487.js"
   ]
 }
