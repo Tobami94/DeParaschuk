@@ -1,6 +1,6 @@
 {
   "name": "paraschukmalena_v2",
-  "homepage": "home",
+  "homepage": "https://Tobami94.github.io/portfolio_v2",
   "description": "",
   "version": "2.0.0",
   "dependencies": {
@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
@@ -29,8 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+   "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "engines": {
     "npm": "10.5.0",
@@ -55,6 +54,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1"
   }
 }
