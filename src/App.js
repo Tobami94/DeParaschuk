@@ -9,15 +9,15 @@ import {
   getInTouch,
   proyects
 } from "./editable-stuff/config.js";
-import MainBody from "./components/home/MainBody";
-import AboutMe from "./components/home/AboutMe";
+import MainBody from "./components/MainBody";
+import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Skills from "./components/home/skillsSection/Skills";
-import GetInTouch from "./components/home/GetInTouch.jsx";
-import Experience from "./components/home/Experience.jsx";
-import BackTop from "./components/home/BackToTop/BacktoTop.jsx";
-import Proyects from "./components/home/Proyects";
+import Skills from "./components/Skills";
+import GetInTouch from "./components/GetInTouch.jsx";
+import Experience from "./components/Experience.jsx";
+import BackTop from "./components/BacktoTop.jsx";
+import Proyects from "./components/Proyects.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -72,7 +72,7 @@ const App = () => {
 <>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
-        <Route path="/" exact element={<Home ref={titleRef} />} />
+        <Route path="/DeParaschuk" exact element={<Home ref={titleRef} />} />
       </Routes>
       <BackTop />
       <Footer>

@@ -15,7 +15,7 @@
 }
 
 .buttonBackTop:after {
-	content: url('../../../assets/icons/backtop-bg.png');
+	content: url('../assets/icons/backtop-bg.png');
 	font-family: "Roboto Condensed", arial, sans-serif;
 	font-weight: normal;
 	font-style: normal;

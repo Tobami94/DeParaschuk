@@ -280,7 +280,7 @@ const proyects = {
  },
     {
       role: 'Clone Spotify',
-      companylogo: require('../assets/img/admindashboard.jpg'),
+      companylogo: require('../assets/img/spotyclone.png'),
       tools: [ 
         { tool: "Javascript"},
         { tool: "React"},
@@ -305,7 +305,7 @@ const proyects = {
   },
   {
     role: 'La gruta',
-    companylogo: require('../assets/img/pokedex.png'),
+    companylogo: require('../assets/img/LAGRUTA_E.png'),
     tools: [ 
       { tool: "Javascript"},
       { tool: "React"},
@@ -319,23 +319,7 @@ const proyects = {
       </p>),
     url: "https://github.com/Tobami94/Pokemon_PI_full"
 
-  }, {
-    role: 'La gruta',
-    companylogo: require('../assets/img/pokedex.png'),
-    tools: [ 
-      { tool: "Javascript"},
-      { tool: "React"},
-      { tool: "Redux"},
-      { tool: "StyleComponent"},
-      { tool: "Node"},
- ],
-    resumen: (<p>Aplicación web para visualizar Pokemons y datos personalizados. Vea sus personajes favoritos, los más populares, busquelos por especie, clase, poder y/o orden alfabético. 
-
-      Cree y guarde nuevos Pokemons, añadadalos a sus favoritos. 
-      </p>),
-    url: "https://github.com/Tobami94/Pokemon_PI_full"
-
-  },
+  }, 
   ]
 }
 
